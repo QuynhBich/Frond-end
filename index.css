@@ -1,0 +1,97 @@
+html {
+  background-image: url(https://static.vecteezy.com/system/resources/previews/004/968/002/original/cute-abstract-modern-background-free-vector.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  background-position: center center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+/*   border: 1px solid black; */
+  border-radius: 2%;
+  box-shadow:  2px 2px 8px rgba(0,0,0,0.5), -2px -2px 8px rgba(0,0,0,0.5);
+  background-color: white;
+}
+.info {
+  margin: 3px;
+}
+.info-content {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.about-us {
+  color: hsl(179, 62%, 43%);
+}
+.trial {
+  color: hsl(71, 73%, 54%);
+}
+.content {
+  color: #999999;
+}
+.detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.box {
+  flex: 50%;
+  padding: 20px;
+  color: white;
+}
+.sign-up {
+  background-color: hsl(179, 62%, 43%);
+  border-bottom-left-radius: 3%;
+}
+.why-us {
+  background-color: hsl(179, 64%, 66%);
+  border-bottom-right-radius: 3%;
+}
+.money p, .why-us p{
+  color: hsl(204, 43%, 93%);
+}
+.money h1{
+  margin: 0;
+}
+.money {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+.money p{
+  margin: 0;
+  padding-left: 10px;
+  display: flex; /* dùng flexbox để căn giữa */
+  justify-content: center; /* căn giữa theo chiều dọc */
+  align-items: center;
+}
+.button {
+  margin: 0 10px 10px 10px;=
+  display: flex;
+  justify-content: center;
+  border-radius: 2%;
+/*   box-shadow:  2px 2px 8px rgba(0,0,0,0.5), -2px -2px 8px rgba(0,0,0,0.5); */
+}
+button {
+  
+  width: 200px;
+  height: 35px;
+  border: none;
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow:  2px 2px 8px rgba(0,0,0,0.5), -2px -2px 8px rgba(0,0,0,0.5);
+}
+button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.subcription h3{
+  margin-bottom: 10px;
+}
